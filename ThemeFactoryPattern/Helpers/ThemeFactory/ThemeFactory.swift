@@ -9,7 +9,10 @@ import SwiftUI
 
 // MARK: - Theme Factory Class
 
-final class ThemeFactory { }
+final class ThemeFactory {
+    
+    private init() { }
+}
 
 // MARK: - Theme Factory Colors
 
