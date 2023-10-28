@@ -39,6 +39,4 @@ extension ThemeFactory: ThemeFactoryImages {
     static func image(_ appImage: AppImages) -> UIImage {
         UIImage(named: appImage.rawValue) ?? .add
     }
-    
-    
 }

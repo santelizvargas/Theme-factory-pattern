@@ -15,6 +15,7 @@
 		3320A8342AECD7CB0062748D /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8332AECD7CB0062748D /* AppColors.swift */; };
 		3320A8362AECD9B60062748D /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8352AECD9B60062748D /* AppImages.swift */; };
 		3320A8382AECDC010062748D /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8372AECDC010062748D /* ThemeFactory.swift */; };
+		3320A83B2AECE0CD0062748D /* View+ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A83A2AECE0CD0062748D /* View+ThemeFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3320A8332AECD7CB0062748D /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		3320A8352AECD9B60062748D /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
 		3320A8372AECDC010062748D /* ThemeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFactory.swift; sourceTree = "<group>"; };
+		3320A83A2AECE0CD0062748D /* View+ThemeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ThemeFactory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3320A82D2AECD6F20062748D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3320A8392AECE0B10062748D /* Extensions */,
 				3320A82E2AECD6F80062748D /* ThemeFactory */,
 			);
 			path = Helpers;
@@ -93,6 +96,14 @@
 				3320A8372AECDC010062748D /* ThemeFactory.swift */,
 			);
 			path = ThemeFactory;
+			sourceTree = "<group>";
+		};
+		3320A8392AECE0B10062748D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3320A83A2AECE0CD0062748D /* View+ThemeFactory.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				3320A8382AECDC010062748D /* ThemeFactory.swift in Sources */,
 				3320A8202AECD61B0062748D /* ThemeFactoryPatternApp.swift in Sources */,
 				3320A8322AECD7840062748D /* ThemeFactoryProtocols.swift in Sources */,
+				3320A83B2AECE0CD0062748D /* View+ThemeFactory.swift in Sources */,
 				3320A8342AECD7CB0062748D /* AppColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
