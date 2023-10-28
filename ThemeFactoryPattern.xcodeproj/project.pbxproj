@@ -11,10 +11,10 @@
 		3320A8222AECD61B0062748D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8212AECD61B0062748D /* ContentView.swift */; };
 		3320A8242AECD61D0062748D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3320A8232AECD61D0062748D /* Assets.xcassets */; };
 		3320A8272AECD61D0062748D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3320A8262AECD61D0062748D /* Preview Assets.xcassets */; };
-		3320A8302AECD7090062748D /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A82F2AECD7090062748D /* ThemeFactory.swift */; };
 		3320A8322AECD7840062748D /* ThemeFactoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8312AECD7840062748D /* ThemeFactoryProtocols.swift */; };
 		3320A8342AECD7CB0062748D /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8332AECD7CB0062748D /* AppColors.swift */; };
 		3320A8362AECD9B60062748D /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8352AECD9B60062748D /* AppImages.swift */; };
+		3320A8382AECDC010062748D /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320A8372AECDC010062748D /* ThemeFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +23,10 @@
 		3320A8212AECD61B0062748D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3320A8232AECD61D0062748D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3320A8262AECD61D0062748D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3320A82F2AECD7090062748D /* ThemeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFactory.swift; sourceTree = SOURCE_ROOT; };
 		3320A8312AECD7840062748D /* ThemeFactoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFactoryProtocols.swift; sourceTree = "<group>"; };
 		3320A8332AECD7CB0062748D /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		3320A8352AECD9B60062748D /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		3320A8372AECDC010062748D /* ThemeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				3320A8332AECD7CB0062748D /* AppColors.swift */,
 				3320A8352AECD9B60062748D /* AppImages.swift */,
 				3320A8312AECD7840062748D /* ThemeFactoryProtocols.swift */,
-				3320A82F2AECD7090062748D /* ThemeFactory.swift */,
+				3320A8372AECDC010062748D /* ThemeFactory.swift */,
 			);
 			path = ThemeFactory;
 			sourceTree = "<group>";
@@ -167,10 +167,10 @@
 			files = (
 				3320A8222AECD61B0062748D /* ContentView.swift in Sources */,
 				3320A8362AECD9B60062748D /* AppImages.swift in Sources */,
+				3320A8382AECDC010062748D /* ThemeFactory.swift in Sources */,
 				3320A8202AECD61B0062748D /* ThemeFactoryPatternApp.swift in Sources */,
 				3320A8322AECD7840062748D /* ThemeFactoryProtocols.swift in Sources */,
 				3320A8342AECD7CB0062748D /* AppColors.swift in Sources */,
-				3320A8302AECD7090062748D /* ThemeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
